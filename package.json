@@ -1,0 +1,35 @@
+{
+  "name": "yarn-resolution-plugin",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "webpack plugin that collects dependency conflicts based on yarn.lock",
+  "author": "fz6m",
+  "homepage": "https://github.com/fz6m/yarn-resolution-plugin",
+  "scripts": {
+    "push": "yarn publish --registry=https://registry.yarnpkg.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fz6m/yarn-resolution-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fz6m/yarn-resolution-plugin.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "webpack",
+    "yarn",
+    "resolution",
+    "yarn-resolution",
+    "dependencies-analysis"
+  ],
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "lodash": "^4.17.20",
+    "prettier": "^2.2.1"
+  },
+  "license": "MIT"
+}
