@@ -54,7 +54,7 @@ module.exports = {
 
 ### 使用
 
-每次 webpack 运行时，本插件将基于 `yarn.lock` 收集目前正在使用的全部依赖信息，你将在本地得到两个文件。
+每次 webpack 运行时，本插件将基于 `yarn.lock` 收集目前正在使用的全部依赖信息，你将在本地得到两个文件
 
 #### yarn-conflict.json
 
@@ -117,7 +117,7 @@ module.exports = {
 |     `report`     |          `true`          |    no    | 是否生成 `yarn-conflict.json` 冲突信息                                                                                                                                    |
 |   `reportPath`   |  `./yarn-conflict.json`  |    no    | `yarn-conflict.json` 的生成位置                                                                                                                                           |
 |   `resolution`   |          `true`          |    no    | 是否生成 `yarn-resolution.json` resolutions 建议                                                                                                                          |
-| `resolutionPath` | `./yarn-resolution.json` |    no    | `yarn-resolution.json` 文件生成位置                                                                                                                                       |
+| `resolutionPath` | `./yarn-resolution.json` |    no    | `yarn-resolution.json` 生成位置                                                                                                                                       |
 
 例：
 
