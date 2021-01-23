@@ -4,6 +4,10 @@
 
 _version: 1.0.1_
 
+ - 为什么要使用 yarn resolutions ？
+
+[《 活用 yarn resolutions 统一版本大幅减小产物包体积 》](https://blog.csdn.net/qq_21567385/article/details/112644629)
+
 ### 安装
 
 ```bash
