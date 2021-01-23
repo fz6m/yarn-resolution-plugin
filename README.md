@@ -2,7 +2,7 @@
 
 基于 `yarn.lock` 自动收集依赖冲突的 webpack 插件，自动给出 resolutions 建议，以此得到产物减小的收益
 
-_version: 1.0.0_
+_version: 1.0.1_
 
 ### 安装
 

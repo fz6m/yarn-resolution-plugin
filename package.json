@@ -1,6 +1,6 @@
 {
   "name": "yarn-resolution-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "description": "webpack plugin that collects dependency conflicts based on yarn.lock",
   "author": "fz6m",
@@ -25,11 +25,13 @@
     "yarn-resolution",
     "dependencies-analysis"
   ],
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
   "devDependencies": {
     "chalk": "^4.1.0",
     "fs-extra": "^9.1.0",
-    "lodash": "^4.17.20",
-    "prettier": "^2.2.1"
+    "lodash": "^4.17.20"
   },
   "license": "MIT"
 }
