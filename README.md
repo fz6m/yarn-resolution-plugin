@@ -1,6 +1,6 @@
 # yarn-resolution-plugin
 
-基于 yarn.lock 自动收集依赖冲突的 webpack 插件，自动给出 resolutions 建议，以此得到产物减小的收益。
+基于 `yarn.lock` 自动收集依赖冲突的 webpack 插件，自动给出 resolutions 建议，以此得到产物减小的收益
 
 _version: 1.0.0_
 
@@ -60,7 +60,7 @@ module.exports = {
 
 当前有冲突的依赖信息列表：
 
-```json
+```js
 [
   {
     // 当前有冲突的依赖名
@@ -88,7 +88,7 @@ module.exports = {
 
 `package.json` 中 resolutions 字段的建议信息：
 
-```json
+```js
 // 每个依赖将取最新版本
 {
   "resolutions": {
@@ -118,6 +118,7 @@ module.exports = {
 |   `reportPath`   |  `./yarn-conflict.json`  |    no    | `yarn-conflict.json` 的生成位置                                                                                                                                           |
 |   `resolution`   |          `true`          |    no    | 是否生成 `yarn-resolution.json` resolutions 建议                                                                                                                          |
 | `resolutionPath` | `./yarn-resolution.json` |    no    | `yarn-resolution.json` 文件生成位置                                                                                                                                       |
+
 例：
 
 ```js
