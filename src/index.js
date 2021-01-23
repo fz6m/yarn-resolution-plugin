@@ -63,7 +63,7 @@ class YarnResolutionPlugin {
         writeFile(
           this.options.resolutionPath,
           { resolutions: result },
-          '// 以下仅代表自动收集结果，请谨慎对待使用 resolution 的依赖\n'
+          '// ❗︎ 以下仅代表自动收集结果，请谨慎对待使用 resolution 的依赖\n// 📚 https://github.com/fz6m/yarn-resolution-plugin#特别注意\n'
         )
 
         print.success(
